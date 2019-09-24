@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CarPartTest < ActiveSupport::TestCase
+class CarsPartsTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
