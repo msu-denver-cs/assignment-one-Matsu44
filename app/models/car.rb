@@ -1,3 +1,5 @@
 class Car < ApplicationRecord
-    has_and_belongs_to_many :parts
+    belongs_to :make
+    has_many :car_parts
+    has_many :parts, through: :car_parts
 end
